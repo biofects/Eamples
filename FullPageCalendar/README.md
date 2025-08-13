@@ -3,23 +3,26 @@
 
 # 🌐 Full Page Calendar with Add Event card.
 
+
 ## 🔍 About
 
-This Home Assistant tutorial on creating a full page calendar using the native Local Calendar integration of home Assistant. I put this together as I did not want sidebar showing and could not modify the look the of the default. So I have put together some automations and yaml to give me the look that fits my dashboard. Please note I may turn this into a plugin in the near future.
+This tutorial guides you through creating a **custom full-page calendar** for your Home Assistant dashboard using the native **Local Calendar** integration. Designed to eliminate the default sidebar and offer a sleek, customizable interface, this solution includes automations, YAML configurations, and a tailored event creation card. Perfect for users seeking a modern, distraction-free calendar view that integrates seamlessly with their Home Assistant setup. Future plans include transforming this into a Home Assistant plugin for easier installation.
 
 
 ---
-## 💸 Donations Appreciated!
-If you find this tutorial useful, please consider donating. Your support is greatly appreciated!
+## 💸 Support This Project and future integrations and tutorials
 
-### Sponsor me on GitHub
-[![Sponsor Me](https://img.shields.io/badge/Sponsor%20Me-%F0%9F%92%AA-purple?style=for-the-badge)](https://github.com/sponsors/biofects?frequency=recurring&sponsor=biofects) 
+If you find this tutorial helpful, consider supporting my work through:
 
-### or
-## Paypal
+- **GitHub Sponsors**: [![Sponsor Me](https://img.shields.io/badge/Sponsor%20Me-%F0%9F%92%AA-purple?style=for-the-badge)](https://github.com/sponsors/biofects?frequency=recurring&sponsor=biofects)
+- **PayPal**: [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TWRQVYJWC77E6)
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TWRQVYJWC77E6)
+Your support helps keep all my projects alive and growing!
 ---
+
+## 📸 Screenshots
+
+![Full Page Calendar with Add Event Card](screenshots/calendar.png)
 
 
 ---
@@ -34,6 +37,7 @@ If you find this tutorial useful, please consider donating. Your support is grea
 - [WallPanel](https://community.home-assistant.io/t/wallpanel-addon-wall-panel-mode-for-your-home-assistant-dashboards/449857)
 - [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod)
 
+⚠️ **Important**: Always back up your Home Assistant configuration before making changes. Follow this tutorial at your own risk, as the author is not responsible for any damage or data loss.
 
 ## 🏗️ Configurations and Scripts
 You will need to understant how to add scripts and input conrtrols in your home assistnat. I will try to be very clear on how to add each one. My configuration might not be exacly as yours, I will use the defaults that is provided when installing Home Assitant.
