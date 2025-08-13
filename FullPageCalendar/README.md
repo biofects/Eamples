@@ -124,7 +124,7 @@ create_event:
   description: Create calendar events with validation and auto-reset date/time
   mode: single
   variables:
-    calendar_entity: calendar.tfam_calendar
+    calendar_entity: calendar.my_calendar
     all_day: "{{ is_state('input_boolean.biofects_all_day', 'on') }}"
     event_title: "{{ states('input_text.biofects_event_title') | trim }}"
     event_description: "{{ states('input_text.biofects_event_description') }}"
@@ -538,8 +538,8 @@ views:
         cards:
           - type: calendar
             entities:
-              - calendar.tfam_calendar
-              - calendar.tfam404_gmail_com
+              - calendar.my_calendar
+              - calendar.my404_gmail_com
             grid_options:
               columns: full
               rows: auto
